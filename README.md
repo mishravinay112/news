@@ -1,4 +1,4 @@
-# Starwars-Films
+# NEWS
 Single Page Application using React/Redux that allows users to sort news from table.
 
 **Note:** Node v6+ is required for this project.
@@ -61,7 +61,7 @@ The file structure there is the pattern used through this project. All of the JS
 
 If you are worried about "separation of concerns", please see MPJ's [humorous rant](https://www.youtube.com/watch?v=0ZNIQOO2sfA) on the topic.
 
-Another quick note, the components designated as "pages" - HomePage, FilmDetailPage - are [container components](http://redux.js.org/docs/basics/UsageWithReact.html#presentational-and-container-components).
+Another quick note, the components designated as "pages" $ "components" - HomePage and other components - are [container components](http://redux.js.org/docs/basics/UsageWithReact.html#presentational-and-container-components).
 
 #### husky
 Note that linting is performed on each commit and tests are run on pre-push. These tasks are courtesy of [husky](https://www.npmjs.com/package/husky). For reference, the husky tasks are in the `scripts` section of `package.json`.
